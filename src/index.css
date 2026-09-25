@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.main-background {
+  min-height: 100vh;
+  background-image: url("/images/portfolio-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Hero animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-text {
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.hero-visual {
+  animation: fadeUp 1s ease-out 0.2s forwards;
+  opacity: 0;
+}
