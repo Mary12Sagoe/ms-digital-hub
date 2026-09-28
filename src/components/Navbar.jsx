@@ -17,12 +17,13 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo / Name */}
-        <a
-          href="#home"
-          className="text-2xl font-bold text-white tracking-wide"
-        >
-          MS Digital Hub<span className="text-blue-400">.</span>
-        </a>
+        <a href="#home" className="flex items-center">
+  <img
+    src="/images/logo.png"
+    alt="MS Digital Hub logo"
+    className="h-10 w-auto object-contain"
+  />
+</a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
