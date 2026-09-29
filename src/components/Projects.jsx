@@ -50,11 +50,11 @@ function Projects() {
           </p>
 
           <h2 className="text-[#F7B843] md:text-5xl font-bold">
-            Featured Project
+            Selected Projects
           </h2>
 
           <p className="text-gray-100 max-w-2xl mx-auto mt-5 text-lg">
-            A selection of projects I've designed and developed.
+            A selection of websites and digital projects I've designed and developed.
           </p>
         </div>
 
