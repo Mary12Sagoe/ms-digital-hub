@@ -33,7 +33,7 @@ function ScrollToTop() {
     <button
       onClick={scrollToTop}
       aria-label="Scroll to top"
-      className="fixed bottom-6 right-6 z-[200] w-12 h-12 rounded-full bg-blue-500 hover:bg-blue-400 text-white flex items-center justify-center shadow-lg hover:-translate-y-1 transition duration-300"
+      className="fixed bottom-6 right-6 z-[200] w-12 h-12 rounded-full bg-blue-700 hover:bg-blue-700 text-white flex items-center justify-center shadow-lg hover:-translate-y-1 transition duration-300"
     >
       <ArrowUp size={22} />
     </button>

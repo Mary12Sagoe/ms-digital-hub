@@ -54,15 +54,15 @@ function Services() {
 
         {/* Heading */}
         <div className="text-center mb-14">
-          <p className="text-blue-400 font-semibold tracking-widest uppercase mb-3">
+          <p className="text-blue-700 font-semibold tracking-widest uppercase mb-3">
             What I Do
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-[#F7B843] md:text-5xl font-bold">
             My Services
           </h2>
 
-          <p className="text-gray-400 max-w-2xl mx-auto mt-5 text-lg">
+          <p className="text-gray-100 max-w-2xl mx-auto mt-5 text-lg">
             Technology services focused on practical, reliable and
             professional solutions.
           </p>
@@ -79,11 +79,11 @@ function Services() {
                 {service.number}
               </span>
 
-              <h3 className="text-2xl font-bold mt-4 mb-4 group-hover:text-blue-400 transition">
+              <h3 className="text-[#F7B843] font-bold mt-4 mb-4 group-hover:text-blue-400 transition">
                 {service.title}
               </h3>
 
-              <p className="text-gray-400 leading-relaxed">
+              <p className="text-blue-700 leading-relaxed">
                 {service.description}
               </p>
             </div>

@@ -9,9 +9,11 @@ function Footer() {
 
           {/* Brand */}
           <div>
-            <h2 className="text-2xl font-bold">
-              MS Digital Hub<span className="text-blue-400">.</span>
-            </h2>
+            <img
+  src="/images/logo.png"
+  alt="MS Digital Hub logo"
+  className="h-20 w-auto object-contain"
+ />
 
             <p className="text-white-700 mt-4 max-w-sm leading-relaxed">
               IT professional and web developer creating practical
@@ -21,7 +23,7 @@ function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">
+            <h3 className="font-semibold text-[#F7B843] mb-4">
               Quick Links
             </h3>
 
@@ -50,7 +52,7 @@ function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">
+            <h3 className="font-semibold text-[#F7B843] mb-4">
               Let's Connect
             </h3>
 
@@ -71,7 +73,7 @@ function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-slate-800 mt-10 pt-6 text-center">
-          <p className="text-white-700 text-sm">
+          <p className="text-[#F7B843] text-sm">
            © {currentYear} MS Digital Hub.
           </p>
         </div>

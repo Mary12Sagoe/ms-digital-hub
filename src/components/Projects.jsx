@@ -45,15 +45,15 @@ function Projects() {
 
         {/* Heading */}
         <div className="text-center mb-14">
-          <p className="text-blue-400 font-semibold tracking-widest uppercase mb-3">
+          <p className="text-blue-700 font-semibold tracking-widest uppercase mb-3">
             My Work
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-[#F7B843] md:text-5xl font-bold">
             Featured Project
           </h2>
 
-          <p className="text-gray-400 max-w-2xl mx-auto mt-5 text-lg">
+          <p className="text-gray-100 max-w-2xl mx-auto mt-5 text-lg">
             A selection of projects I've designed and developed.
           </p>
         </div>
@@ -80,7 +80,7 @@ function Projects() {
                 {project.category}
                </p>
 
-                 <h3 className="text-2xl font-bold mb-4">
+                 <h3 className="text-[#F7B843] font-bold mb-4">
                    {project.title}
                    </h3>
 
@@ -93,7 +93,7 @@ function Projects() {
                   {project.technologies.map((technology) => (
                     <span
                       key={technology}
-                      className="px-3 py-1 bg-slate-800 text-gray-300 text-sm rounded-full"
+                      className="px-3 py-1 bg-slate-800 text-[#F7B843] text-sm rounded-full"
                     >
                       {technology}
                     </span>
@@ -106,7 +106,7 @@ function Projects() {
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg transition duration-300"
+                    className="bg-blue-900 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg transition duration-300"
                   >
                     Live Demo
                   </a>
@@ -115,7 +115,7 @@ function Projects() {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border border-slate-700 hover:border-blue-400 hover:text-blue-400 font-semibold px-6 py-3 rounded-lg transition duration-300"
+                    className="bg-blue-900 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg transition duration-300"
                   >
                     GitHub
                   </a>

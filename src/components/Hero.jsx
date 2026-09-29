@@ -13,14 +13,14 @@ function Hero() {
 
         {/* Text */}
         <div className="hero-text min-w-0">
-          <p className="text-blue-400 font-semibold tracking-widest uppercase mb-4">
+          <p className="text-[#F7B843] font-semibold tracking-widest uppercase mb-4">
             IT Professional & Web Developer
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className=" md:text-[#F7B843] font-bold leading-tight">
             Welcome to
             <br />
-            <span className="text-blue-400">MS Digital Hub</span>
+            <span className="text-blue-600">MS Digital Hub</span>
           </h1>
 
           <p className="text-gray-200 text-lg md:text-xl mt-6 max-w-xl leading-relaxed">
@@ -32,14 +32,14 @@ function Hero() {
           <div className="flex flex-wrap gap-4 mt-8">
             <a
               href="#projects"
-              className="bg-blue-500 hover:bg-blue-400 hover:-translate-y-1 text-white font-semibold px-6 py-3 rounded-lg transition duration-300"
+              className="border border-slate-600 hover:border-blue-600 hover:text-blue-400 hover:-translate-y-1 text-[#F7B843] font-semibold px-6 py-3 rounded-lg transition duration-300"
             >
               View My Projects
             </a>
 
             <a
               href="#contact"
-              className="border border-slate-600 hover:border-blue-400 hover:text-blue-400 hover:-translate-y-1 text-white font-semibold px-6 py-3 rounded-lg transition duration-300"
+              className="border border-slate-600 hover:border-blue-600 hover:text-blue-400 hover:-translate-y-1 text-[#F7B843] font-semibold px-6 py-3 rounded-lg transition duration-300"
             >
               Contact Me
             </a>
@@ -53,16 +53,16 @@ function Hero() {
             <div className="text-center">
 
               <div className="w-27 h-27 mx-auto rounded-full bg-blue-500/20 border border-blue-400/40 flex items-center justify-center">
-                <span className="text-5xl font-bold text-blue-400">
+                <span className="text-5xl font-bold text-[#F7B843]">
                   MS
                 </span>
               </div>
 
-              <h2 className="text-2xl font-bold mt-8">
+              <h2 className="text-blue-600 font-bold mt-8">
                 MS Digital Hub
               </h2>
 
-              <p className="text-blue-400 font-medium mt-2">
+              <p className="text-[#F7B843] font-medium mt-2">
                 IT Professional & Web Developer
               </p>
 
@@ -72,15 +72,15 @@ function Hero() {
               </p>
 
               <div className="mt-8 flex justify-center gap-3 flex-wrap">
-                <span className="px-4 py-2 rounded-full bg-slate-900/70 text-gray-300 text-sm">
+                <span className="px-4 py-2 rounded-full bg-slate-900/70 text-[#F7B843] text-sm">
                   React
                 </span>
 
-                <span className="px-4 py-2 rounded-full bg-slate-900/70 text-gray-300 text-sm">
+                <span className="px-4 py-2 rounded-full bg-slate-900/70 text-[#F7B843] text-sm">
                   JavaScript
                 </span>
 
-                <span className="px-4 py-2 rounded-full bg-slate-900/70 text-gray-300 text-sm">
+                <span className="px-4 py-2 rounded-full bg-slate-900/70 text-[#F7B843] text-sm">
                   IT
                 </span>
               </div>

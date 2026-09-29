@@ -31,7 +31,7 @@ function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-gray-300 hover:text-blue-400 transition duration-300"
+              className="text-[#F7B843] hover:text-blue-700 transition duration-300"
             >
               {link.name}
             </a>
@@ -57,7 +57,7 @@ function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="text-gray-300 hover:text-blue-400 transition"
+                className="text-[#F7B843] hover:text-blue-700 transition"
               >
                 {link.name}
               </a>

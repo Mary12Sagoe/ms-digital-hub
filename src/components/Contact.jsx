@@ -55,11 +55,11 @@ function Contact() {
 
         {/* Heading */}
         <div className="text-center mb-14">
-          <p className="text-blue-400 font-semibold tracking-widest uppercase mb-3">
+          <p className="text-blue-700 font-semibold tracking-widest uppercase mb-3">
             Let's Connect
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-[#F7B843] md:text-5xl font-bold">
             Let's Work Together
           </h2>
 
@@ -81,7 +81,7 @@ function Contact() {
               </div>
 
               <div>
-                <p className="text-gray-400 text-sm">Email</p>
+                <p className="text-[#F7B843] text-sm">Email</p>
                 <p className="font-semibold">
                   maryakuasagoe@gmail.com
                 </p>
@@ -94,7 +94,7 @@ function Contact() {
               </div>
 
               <div>
-                <p className="text-gray-400 text-sm">WhatsApp</p>
+                <p className="text-[#F7B843] text-sm">WhatsApp</p>
                 <p className="font-semibold">
                   +233596358403
                 </p>
@@ -107,7 +107,7 @@ function Contact() {
               </div>
 
               <div>
-                <p className="text-gray-400 text-sm">Phone</p>
+                <p className="text-[#F7B843] text-sm">Phone</p>
                 <p className="font-semibold">
                   +233509289706
                 </p>
@@ -120,7 +120,7 @@ function Contact() {
               </div>
 
               <div>
-                <p className="text-gray-400 text-sm">Location</p>
+                <p className="text-[#F7B843] text-sm">Location</p>
                 <p className="font-semibold">
                   Accra, Ghana
                 </p>
@@ -132,7 +132,7 @@ function Contact() {
           {/* Contact form */}
           <div className="bg-slate-950/80 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-white/10">
 
-            <h3 className="text-2xl font-bold mb-6">
+            <h3 className="text-[#F7B843] font-bold mb-6">
               Send Me a Message
             </h3>
 
@@ -140,7 +140,7 @@ function Contact() {
 
               {/* Name */}
               <div>
-                <label className="block text-sm text-gray-300 mb-2">
+                <label className="block text-sm text-[#F7B843]  mb-2">
                   Your Name
                 </label>
 
@@ -155,7 +155,7 @@ function Contact() {
 
               {/* Email */}
               <div>
-                <label className="block text-sm text-gray-300 mb-2">
+                <label className="block text-sm text-[#F7B843] mb-2">
                   Email Address
                 </label>
 
@@ -170,7 +170,7 @@ function Contact() {
 
               {/* Subject */}
               <div>
-                <label className="block text-sm text-gray-300 mb-2">
+                <label className="block text-sm text-[#F7B843] mb-2">
                   Subject
                 </label>
 
@@ -185,7 +185,7 @@ function Contact() {
 
               {/* Message */}
               <div>
-                <label className="block text-sm text-gray-300 mb-2">
+                <label className="block text-sm text-[#F7B843] mb-2">
                   Message
                 </label>
 
@@ -224,7 +224,7 @@ function Contact() {
               <button
   type="submit"
   disabled={sending}
-  className="w-full bg-blue-500 hover:bg-blue-400 disabled:bg-blue-300 text-white font-semibold py-3 rounded-lg transition duration-300"
+  className="w-full bg-blue-800 hover:bg-blue-400 disabled:bg-blue-300 text-white font-semibold py-3 rounded-lg transition duration-300"
 >
   {sending ? "Sending..." : success ? "Message Sent ✓" : "Send Message"}
 </button>
